@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    table, th, td {
+      border:2px solid black;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+    }
+
+    </style>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>My Resume</title>
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link href="css/resume.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="experience.html">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="education.html">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="skills.html">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="interests.html">Interests</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          <div class="row">
+            <div class="column">
+              <img src="udang.jpg" alt="Udang" usemap="#udangmap" style="width:75%">
+                <map name="udangmap">
+                  <area shape="default" alt="Udang" href="Neocaradina.html">                  
+                </map>
+            </div>
+            <div class="column">
+              <img src="water.jpg" alt="water" usemap="#watermap" style="width:75%">
+                <map name="watermap">
+                  <area shape="default" alt="water" href="Waterchange.html">                  
+                </map>
+            </div>
+            <div class="column">
+              <img src="hellboy.jpg" alt="betta" usemap="#bettamap" style="width:75%">
+                <map name="bettamap">
+                  <area shape="default" alt="betta" href="betta.html">                  
+                </map>
+            </div>
+          </div>
+          <br>
+          <p>Apart from being a student, One of my favorite hobbies is breeding aquatic life, specifically Neocaridina shrimp and betta fish. With Neocaridina shrimp, I’m fascinated by their vibrant colors, like reds, blues, and oranges, and how selective breeding can enhance those traits over generations. I maintain separate tanks with precise water parameters like pH, temperature, and TDS (total dissolved solids) to ensure they thrive. Watching a colony of shrimp multiply and grow is incredibly rewarding, especially when I spot rare color morphs emerging.</p>
+          <p>When it comes to betta fish, I enjoy working with both their beauty and their personalities. Breeding them involves carefully selecting pairs for their fin patterns, colors, and health. I condition the fish before breeding with live foods, then use a breeding tank setup where the male builds a bubble nest for the eggs. It’s amazing to watch the entire process, from courtship to the moment the fry hatch and start swimming freely.</p>
+          <p>This hobby combines my love for creativity and science, as I get to experiment with genetics while creating visually stunning tanks. Plus, the upkeep—water changes, aquascaping, and feeding—feels like a calming routine that balances my day.</p>
+        
+      </div>
+      <p id="demo"></p>
+        <marquee>AUTHOR: SHAMELL IMRAN</marquee>
+      </section>
+
+    </div>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/resume.min.js"></script>
+  </body>
+
+</html>
